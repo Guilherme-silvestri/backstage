@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: artists-db1
+  description: Stores artist details1
+spec:
+  type: database1
+  owner: team-a
+  system: artist-engagement-portal
